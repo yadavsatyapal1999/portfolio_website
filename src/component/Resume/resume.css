@@ -1,0 +1,37 @@
+.box{
+    width: 30%;
+   text-align: center;
+    box-sizing: border-box;
+    box-shadow: 1vw 1vw 1vw rgb(231, 228, 228), -1vw -1vw 1vw rgb(231, 228, 228);
+    border: 1px solid rgb(99, 230, 24);
+    padding: 2vw;
+    margin: 1vw;
+    border-radius: 5vw 0vw;
+
+}
+.html{
+    width: max-content;
+    height: max-content;
+    border: 1vw solid rgb(21, 198, 211);
+    border-radius: 50%;
+    display: -webkit-inline-box;
+}
+h1{
+    margin: auto ;
+    margin: 4vw;
+}
+#skills{
+    display: flex;
+    flex-wrap: wrap;
+    text-wrap: nowrap;
+}
+h2{
+    font-size: 5vw;
+}
+.box:hover{
+    width: 40vw;
+    height: 30vw;
+    background-color: rgb(111, 172, 71,0.5);
+    font-size: 8vw;
+    transition:  3s;
+}

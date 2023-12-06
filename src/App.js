@@ -1,14 +1,14 @@
-
 import './App.css';
+import Projects from './component/Resume/Projects/Projects';
+
 
 function App() {
-  return (
-    <div className="App">
-      <h1>
-        Satyapal Yadav
-      </h1>
+  return <div className = "App" >
+
+<Projects/>
+
     </div>
-  );
+
 }
 
 export default App;
