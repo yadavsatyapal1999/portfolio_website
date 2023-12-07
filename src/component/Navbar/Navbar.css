@@ -1,0 +1,24 @@
+.navbar {
+    display: inline-flex;
+    border: 5px solid black;
+    width: 98%;
+}
+
+.nav {
+    height: auto;
+    margin: 2px 0px;
+    align-self: center;
+}
+.navbar2{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 98%;  
+}
+.nav:hover{
+    font-style: italic;
+    border-bottom: 1px solid rgb(48, 192, 228);
+}
+.navbar1{
+    min-width: fit-content;
+}
